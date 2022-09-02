@@ -1,1 +1,2 @@
-# tup-lc2-clima-app
+# TP integrador
+Laboratorio de Computación II
