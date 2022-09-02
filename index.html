@@ -5,9 +5,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TUP LC2 - TP Integrador</title>
+    <title>Clima App</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
+    <link rel="icon" sizes="32x32" href="img/cloud-sun-solid.svg">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
         </h1>
         <nav>
             <ul>
-                <li class="current-page"><a href="#">Mi App</a></li>
+                <li class="current-page"><a href="#">Clima</a></li>
                 <li><a href="/add-city.html">Ciudad</a></li>
                 <li><a href="/help.html">Ayuda</a></li>
             </ul>
@@ -25,13 +26,24 @@
     </header>
     <!-- Contenido principal de la página -->
     <main>
-        <h2>Mi primera App!</h2>
+        <h2>El clima ahora</h2>
         <section id="form-city-list">
-            <!-- Sección donde se debe colocar el formulario, con el select y el
-                botón de consultar -->
+            <form>
+                <select name="selec-ciudad">
+                    <option value="selec-ciudad">Buenos Aires</option>
+                    <option value="selec-ciudad">Córdoba</option>
+                    <option value="selec-ciudad">Roldán</option>
+                    <option value="selec-ciudad">Rosario</option>
+                </select>
+                <button name="boton">Consultar</button>
+            </form>
         </section>
         <section id="section-weather-result">
             <!-- Sección donde se debe mostrar el clima de la ciudad -->
+        </section>
+
+        <section>
+            
         </section>
     </main>
 
