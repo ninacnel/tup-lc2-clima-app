@@ -32,18 +32,23 @@
         <p>Para poder consultar el clima, primero deberá <a href="/add-city.html">Agregar una ciudad</a> y luego seleccionar la ciudad en cuestión desde la página <a href="/index.html">clima.</a></p>
 
         <section>
-            <form action="">
+            <form class="ayuda" action="">
                 <label for="nombre">Nombre</label>
-                <input type="text" placeholder="Nombre">
+                <input class="inputs-ayuda" type="text">
                 <br>
                 <label for="correo">Correo Electrónico</label>
-                <input type="email" placeholder="Ingrese su correo" name="correo">
+                <input class="inputs-ayuda" type="email" name="correo">
                 <br>
-                <textarea name="mensaje" rows="5" cols="100" placeholder="Dejenos su mensaje"></textarea>
+                <label for="mensaje">Mensaje:</label>
                 <br>
-                <input type="submit" name="boton" value="Limpiar">
-                <input type="submit" name="boton" value="Enviar">
+                <textarea class="input-textarea" name="mensaje" rows="10" cols="40"></textarea>
+                <br>
+                <button class="botones-help">Limpiar</button>
+                <button class="botones-help">Enviar</button>
             </form>
+        </section>
+        <section class="error-ayuda">
+            <p class="mensaje">Ingrese un Email válido</p>
         </section>
     </main>
 

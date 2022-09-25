@@ -31,10 +31,19 @@
         <section>
             <form>
                 <label for="inreso-ciudad">Ingrese la ciudad a agregar:</label>
-                <input type="text">
+                <input type="text" class="inputs">
                 <br>
-                <button>Agregar</button>
+                <button class="boton-agregar">Agregar</button>
             </form>
+        </section>
+        <section class="success">
+            <p class="mensaje">Ciudad agregada con éxito</p>
+        </section>
+        <section class="error">
+            <p class="mensaje">Error: La ciudad ingresada no se encuentra en la API o se produjo un error al consultar</p>
+        </section>
+        <section class="warning">
+            <p class="mensaje">La ciudad ingresada ya se encuentra almacenada</p>
         </section>
     </main>
 

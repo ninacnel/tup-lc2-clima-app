@@ -2,7 +2,6 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima App</title>
@@ -31,7 +30,7 @@
         <section id="form-city-list">
             <form>
                 <select name="selec-ciudad">
-                    <option value="" disabled selected>Seleccionar ciudad</option>
+                <!--<option value="disabled selected">Seleccionar ciudad</option>-->
                     <option value="RAFAELA">Rafaela</option>
                     <option value="ROSARIO">Rosario</option>
                 </select>
@@ -41,18 +40,16 @@
         <section id="section-weather-result">
             <!-- Sección donde se debe mostrar el clima de la ciudad -->
             <div class="card">
-                <h3>Rafaela</h3>
-                <img src=http://openweathermap.org/img/wn/01d@2x.png>
-                <p class="pindex">Temperatura: 25.31º</p>
-                <p class="pindex">Sensación térmica: 24.65º</p>
-                <p class="pindex">Humedad: 29%</p>
-                <p class="pindex">Velocidad del viento: 4.63km/h</p>
-                <p class="pindex">Presión: 1011 P</p>
+                <div class="card-container">
+                    <h3>Rafaela</h3>
+                    <img class="card-img" src=http://openweathermap.org/img/wn/01d@2x.png>
+                    <p class="pindex">Temperatura: 25.31º</p>
+                    <p class="pindex">Sensación térmica: 24.65º</p>
+                    <p class="pindex">Humedad: 29%</p>
+                    <p class="pindex">Velocidad del viento: 4.63km/h</p>
+                    <p class="pindex">Presión: 1011 P</p>
+                </div>
             </div>
-        </section>
-
-        <section>
-            
         </section>
     </main>
 
