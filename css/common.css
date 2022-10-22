@@ -56,6 +56,10 @@ button {
     justify-items: center;
 }
 
+.div-botones {
+    align-items: center;
+}
+
 .inputs {
     display: block;
     width: 230px;
